@@ -1,12 +1,21 @@
 body {
   background-color: powderblue;
 }
+
 h1 {
   color: blue;
 }
+
 p {
   color: red;
 }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 .button {
   border: none;
   color: white;
