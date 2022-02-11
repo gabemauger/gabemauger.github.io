@@ -1,17 +1,22 @@
 * {
   font-family: Tahoma;
+  background-color: #e5e5fb;
 }
 
-body {
-  background-color: tan;
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  
 }
 
 h1 {
-  color: brown;
+  color: black;
 }
 
 p {
-  color: blue;
+  color: black;
 }
 
 nav {
@@ -41,12 +46,12 @@ nav li {
 
 nav li a {
   display: block;
-  color: brown;
+  color: #e5e5fb;
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
 }
 
 nav li a:hover {
-  background-color: tan;
+  background-color: #dcd5fb;
 }
