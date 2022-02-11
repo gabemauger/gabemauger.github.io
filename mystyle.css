@@ -1,6 +1,5 @@
-:root {
-  --font-family: Tahoma
-  --normal-font: 400;
+* {
+  font-family: Tahoma;
 }
 
 body {
