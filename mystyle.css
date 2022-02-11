@@ -38,10 +38,10 @@ nav li a {
   display: block;
   color: brown;
   text-align: center;
-  padding: 8;
+  padding: 1rem;
   text-decoration: none;
 }
 
 nav li a:hover {
-  background-color: brown;
+  background-color: tan;
 }
