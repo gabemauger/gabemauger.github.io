@@ -32,6 +32,7 @@ nav h1 {
 nav li {
   float: left;
   display: inline;
+  padding: 14rem 16rem
 }
 
 nav li a {
