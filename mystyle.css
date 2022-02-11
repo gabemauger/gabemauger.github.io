@@ -11,9 +11,14 @@ p {
 }
 
 ul {
+  background-color: #f3f3f3;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
 }
 
 li {
