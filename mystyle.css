@@ -36,7 +36,8 @@ nav {
 
 nav ul {
   display: flex;
-  color: #fdfdfd;
+  background-color: #fdfdfd;
+  color: red;
 
 nav a:hover {
   background-color: #dcd5fb;
