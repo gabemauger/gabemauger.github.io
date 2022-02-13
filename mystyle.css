@@ -28,7 +28,7 @@ nav {
   display: flex;
   background-color: #fdfdfd;
   justify-content: space-between;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 3.5rem;
   
   position: -webkit-sticky;
   position: sticky;
@@ -38,6 +38,7 @@ nav ul {
   display: flex;
   background-color: #fdfdfd;
   color: red;
+  gap: 1.9rem;
 
 nav a:hover {
   background-color: #dcd5fb;
