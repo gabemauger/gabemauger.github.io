@@ -1,7 +1,7 @@
 * {
   font-family: Tahoma;
   background-color: #e5e5fb;
-  color: black;
+  color: red;
 }
 
 .hero {
@@ -44,6 +44,7 @@ nav li {
   float: left;
   display: inline;
   padding: 8;
+  background-color: #fdfdfd;
 }
 
 nav li a {
@@ -51,7 +52,6 @@ nav li a {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
-  background-color: #fdfdfd;
 }
 
 nav li a:hover {
