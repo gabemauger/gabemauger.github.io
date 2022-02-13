@@ -1,7 +1,7 @@
 * {
   font-family: Tahoma;
   background-color: #e5e5fb;
-  color: blue;
+  color: black;
 }
 
 .hero {
@@ -9,7 +9,10 @@
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
-  
+}
+
+ul {
+  list-style-type: none;
 }
 
 h1 {
@@ -20,20 +23,21 @@ p {
   color: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 nav {
   top: 0;
   left: 0;
   z-index: 1;
   display: flex;
-  background-color: #f333;
-  list-style-type: none;
-  align-items: center;
-  padding: 0rem 3rem;
-  color: black;
+  background-color: #fdfdfd;
+  justify-content: space-between;
+  padding: 1.5rem 3rem;
   
   position: -webkit-sticky;
   position: sticky;
-  top: 0;
 }
 
 nav ul {
