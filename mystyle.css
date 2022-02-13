@@ -25,7 +25,7 @@ nav {
   left: 0;
   z-index: 0;
   display: flex;
-  background-color: #fdfdfd;
+  background-color: #f333;
   list-style-type: none;
   align-items: center;
   padding: 0rem 3rem;
@@ -36,15 +36,12 @@ nav {
   top: 0;
 }
 
-nav h1 {
-  
-}
 
 nav li {
   float: left;
-  display: inline;
+  /*display: inline;
   padding: 8;
-  color: #fdfdfd;
+  color: #fdfdfd; */
 }
 
 nav li a {
@@ -52,6 +49,7 @@ nav li a {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
+  color: red;
 }
 
 nav li a:hover {
