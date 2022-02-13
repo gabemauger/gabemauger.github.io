@@ -10,6 +10,8 @@
   align-items: center;
   justify-content: center;
   gap: 2.5rem;
+  max-width: 30rem;
+  margin: auto;
 }
 
 ul {
