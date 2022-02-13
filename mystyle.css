@@ -40,6 +40,6 @@ nav ul {
   color: red;
   gap: 1.9rem;
 
-nav a:hover {
+nav ul li:hover {
   background-color: #dcd5fb;
 }
