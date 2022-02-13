@@ -51,6 +51,7 @@ nav li a {
   text-align: center;
   text-decoration: none;
   padding: 14px 16px;
+  background-color: #fdfdfd;
 }
 
 nav li a:hover {
