@@ -39,9 +39,9 @@ nav {
 
 nav li {
   float: left;
-  /*display: inline;
+  display: inline;
   padding: 8;
-  color: #fdfdfd; */
+  color: #fdfdfd;
 }
 
 nav li a {
