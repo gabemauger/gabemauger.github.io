@@ -23,7 +23,7 @@ p {
 nav {
   top: 0;
   left: 0;
-  z-index: 0;
+  z-index: 1;
   display: flex;
   background-color: #f333;
   list-style-type: none;
@@ -36,22 +36,17 @@ nav {
   top: 0;
 }
 
+nav ul {
+  display: flex;
 
-nav li {
-  float: left;
-  display: inline;
-  padding: 8;
+nav a {
   color: #fdfdfd;
 }
 
-nav li a {
-  display: block;
-  text-align: center;
-  text-decoration: none;
-  padding: 14px 16px;
-  color: red;
+nav a {
+  color: #fdfdfd;
 }
 
-nav li a:hover {
+nav a:hover {
   background-color: #dcd5fb;
 }
