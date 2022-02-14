@@ -51,13 +51,16 @@ nav {
 
 nav ul {
   display: flex;
-  background-color: #fdfdfd;
-  color: red;
+  background-color: #bac1cf;
   gap: 1.9rem;
 }
 
+nav ul li {;
+  background=color: #dce4f2;
+}
+
 nav ul li:hover {
-  background-color: #dcd5fb;
+  background-color: #fbfbfb;
 }
   
 .about {
