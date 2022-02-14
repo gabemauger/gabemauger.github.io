@@ -83,6 +83,8 @@ li a:hover {
 div.gallery {
   border: 1px solid #ccc;
   display: block;
+  width: 100%;
+  height: auto;
   margin-left: auto;
   margin-right: auto;
 }
@@ -95,4 +97,8 @@ div.desc {
   padding: 15px;
   text-align: center;
   background-color: #fdfdfd;
+}
+
+* {
+  box-sizing: border-box;
 }
