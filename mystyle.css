@@ -43,7 +43,7 @@ nav {
   display: flex;
   background-color: #bac1cf;
   justify-content: space-between;
-  padding: 1.5rem 3.5rem;
+  padding: 14px 16px;
   
   position: -webkit-sticky;
   position: sticky;
