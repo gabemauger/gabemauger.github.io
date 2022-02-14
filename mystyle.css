@@ -82,6 +82,9 @@ li a:hover {
 
 div.gallery {
   border: 1px solid #ccc;
+}
+
+div.gallery img {
   display: block;
   width: 100%;
   height: auto;
