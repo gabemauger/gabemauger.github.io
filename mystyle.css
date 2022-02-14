@@ -54,8 +54,19 @@ nav ul {
   gap: 1.9rem;
 }
 
-li a:hover {
+li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.aboutme) {
   background-color: #fbfbfb;
+}
+
+li a.aboutme {
+  background-color: #0FFFFF;
 }
   
 .about {
