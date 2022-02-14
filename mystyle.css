@@ -41,7 +41,7 @@ nav {
   left: 0;
   z-index: 1;
   display: flex;
-  background-color: #fdfdfd;
+  background-color: #bac1cf;
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   
@@ -61,7 +61,7 @@ nav ul li:hover {
 }
   
 .about {
-  padding: 1.5rem;
+  padding: 2rem;
 }
   
 .about h1 {
