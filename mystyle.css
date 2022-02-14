@@ -80,8 +80,9 @@ li a:hover:not(.aboutme) {
   text-align: center;
 }
 
-div.galler {
-  border: 1px solid #ccc
+div.gallery {
+  border: 1px solid #ccc;
+  align-items: center;
 }
 
 div.gallery:hover {
