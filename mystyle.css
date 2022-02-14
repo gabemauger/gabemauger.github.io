@@ -58,3 +58,7 @@ nav ul {
 nav ul li:hover {
   background-color: #dcd5fb;
 }
+  
+.about {
+  align-items: center;
+}
