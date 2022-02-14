@@ -54,11 +54,7 @@ nav ul {
   gap: 1.9rem;
 }
 
-nav ul li a{;
-  background=color: #bac1cf;
-}
-
-nav ul li a:hover {
+li a:hover {
   background-color: #fbfbfb;
 }
   
