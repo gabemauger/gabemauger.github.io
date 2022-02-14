@@ -44,6 +44,7 @@ nav {
   background-color: #bac1cf;
   justify-content: space-between;
   padding: 14px 16px;
+  text-align: center;
   
   position: -webkit-sticky;
   position: sticky;
@@ -57,7 +58,6 @@ nav ul {
 
 nav h1 {
   background-color: #bac1cf;
-  text-align: center;
   padding: 14px 16px;
 }
 
