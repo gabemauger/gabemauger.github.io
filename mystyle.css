@@ -85,7 +85,6 @@ div.gallery {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
 }
 
 div.gallery:hover {
@@ -96,8 +95,4 @@ div.desc {
   padding: 15px;
   text-align: center;
   background-color: #fbfbfb;
-}
-
-* {
-  box-sizing: border-box;
 }
