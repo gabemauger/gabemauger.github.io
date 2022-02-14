@@ -3,7 +3,7 @@
   padding: 0;
   font-family: Tahoma;
   color: black;
-  background-color: #fbfbfb
+  background-color: #dce4f2
 }
 
 .hero {
@@ -61,7 +61,7 @@ nav ul li:hover {
 }
   
 .about {
-  padding: 2rem;
+  padding: 4rem;
 }
   
 .about h1 {
