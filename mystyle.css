@@ -68,14 +68,8 @@ li a {
   text-decoration: none;
 }
 
-
-
 li a:hover:not(.aboutme) {
   background-color: #bac1cf;
-}
-
-li a.aboutme {
-  background-color: #0FFFFF;
 }
   
 .about {
