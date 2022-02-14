@@ -54,12 +54,16 @@ nav ul {
   background-color: #fdfdfd;
   color: red;
   gap: 1.9rem;
+}
 
 nav ul li:hover {
   background-color: #dcd5fb;
 }
   
 .about {
-  text-align: center;
   padding: 1.5rem;
+}
+  
+.about h1 {
+  text-align: center;
 }
