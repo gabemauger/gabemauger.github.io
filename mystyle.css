@@ -54,6 +54,10 @@ nav ul {
   gap: 1.9rem;
 }
 
+nav h1 {
+  background-color: #bac1cf;
+}
+
 li a {
   display: block;
   text-align: center;
@@ -61,8 +65,10 @@ li a {
   text-decoration: none;
 }
 
+
+
 li a:hover:not(.aboutme) {
-  background-color: #fbfbfb;
+  background-color: #bac1cf;
 }
 
 li a.aboutme {
