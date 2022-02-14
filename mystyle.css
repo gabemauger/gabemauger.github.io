@@ -3,6 +3,7 @@
   padding: 0;
   font-family: Tahoma;
   color: black;
+  background-color: #fbfbfb
 }
 
 .hero {
@@ -17,12 +18,13 @@
 .hero img {
   object-fit: cover;
   height: 25rem;
-  width: 12.5rem;
+  width: 17.5rem;
 }
 
 .bio {
   width: 40rem;
   padding: 0.5rem;
+  box-shadow: 5px 10px
 }
 
 ul {
