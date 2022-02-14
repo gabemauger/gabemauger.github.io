@@ -52,6 +52,7 @@ nav {
 nav ul {
   display: flex;
   gap: 1.9rem;
+  border: 2px solid #e7e7e7;
 }
 
 nav h1 {
