@@ -82,7 +82,10 @@ li a:hover:not(.aboutme) {
 
 div.gallery {
   border: 1px solid #ccc;
-  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 div.gallery:hover {
