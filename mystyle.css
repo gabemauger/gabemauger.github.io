@@ -51,15 +51,14 @@ nav {
 
 nav ul {
   display: flex;
-  background-color: #bac1cf;
   gap: 1.9rem;
 }
 
-nav ul li {;
-  background=color: #dce4f2;
+nav ul li a{;
+  background=color: #bac1cf;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
   background-color: #fbfbfb;
 }
   
