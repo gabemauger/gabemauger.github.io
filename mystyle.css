@@ -101,6 +101,7 @@ td {
   width: 80px;
   height: 80px;
   text-align: center;
+  align-items: center;
 }
 
 .np {
