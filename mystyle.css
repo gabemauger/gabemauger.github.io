@@ -95,3 +95,11 @@ div.desc {
 .hero ul {
   list-style-type: circle;
 }
+
+td {
+  background-color: red;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+}
+
