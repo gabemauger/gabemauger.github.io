@@ -97,9 +97,12 @@ div.desc {
 }
 
 td {
-  background-color: red;
+  background-color: black;
   width: 80px;
   height: 80px;
   text-align: center;
 }
 
+.np {
+  background-color: red;
+}
