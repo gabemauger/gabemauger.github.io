@@ -113,7 +113,7 @@ td {
   padding: 12px;
   background-color: red;
   border: 1px solid white;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .blackp {
@@ -122,13 +122,5 @@ td {
   padding: 12px;
   background-color: red;
   border: 1px solid white;
-  border-radius: 50px;
-}
-
-.king.redp {
-  background-color: orange;
-}
-
-.king.blackp {
-  background-color: purple;
+  border-radius: 30px;
 }
