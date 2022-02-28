@@ -6,6 +6,10 @@
   background-color: #dce4f2
 }
 
+div {
+  text-align: center;
+}
+
 .hero {
   display: flex;
   align-items: center;
