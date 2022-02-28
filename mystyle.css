@@ -129,3 +129,7 @@ td {
   border: 1px solid white;
   border-radius: 50px;
 }
+
+.black-next {
+  color: grey;
+}
