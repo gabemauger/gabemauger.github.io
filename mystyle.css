@@ -88,7 +88,7 @@ div.gallery img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: %25
+  width: 25%;
 }
 
 div.desc {
@@ -100,40 +100,44 @@ div.desc {
   list-style-type: circle;
 }
 
-table.center {
-  margin-left: auto;
-  margin-right: auto;
+.board {
+  margin: auto;
+  background-color: blue;
+  border: 1px blue;
+  height: 300px;
+  width: 350px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-td {
-  background-color: black;
-  width: 65px;
-  height: 65px;
-  text-align: center;
+.board div {
+  margin: auto;
+  color: white;
+  border-radius: 50%;
+  height: 45px;
+  width: 45px;
 }
 
-.np {
+.hide {
+  display: none;
+}
+
+.current {
+  display: table;
+  margin: 0 auto;
+}
+
+.pl-red {
   background-color: red;
+  border-radius: 50%;
 }
 
-.redp {
-  width: 20px;
-  height: 20px;
-  padding: 12px;
-  background-color: darkred;
-  border: 1px solid white;
-  border-radius: 50px;
+.pl-yellow {
+  background-color: yellow;
+  border-radius: 50%;
 }
 
-.blackp {
-  width: 20px;
-  height: 20px;
-  padding: 12px;
-  background-color: black;
-  border: 1px solid white;
-  border-radius: 50px;
-}
 
-.black-next {
-  color: grey;
-}
+
+
+
