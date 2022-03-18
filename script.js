@@ -2,6 +2,53 @@ const squares = document.querySelectorAll('.board div');
 const winner = document.querySelector('#winner');
 const current = document.querySelector('#current');
 
+var playNum = 1;
+
+
+
+var socket = io();
+socket.on('movement', function(move) {
+    console.log(move);
+
+    if (move.currentPlayer == 2) {
+        squares[move.i].classList.add('taken');
+        squares[move.i].classList.add('pl-red');
+        currentPlayerText = 'Yellow\'s Turn';
+        currentPlayer = 2;
+        current.innerHTML = currentPlayerText;
+    }
+
+    else if (move.currentPlayer == 1) {
+        squares[move.i].classList.add('taken');
+        squares[move.i].classList.add('pl-yellow');
+        currentPlayerText = 'Red\'s Turn';
+        currentPlayer = 1;
+        current.innerHTML = currentPlayerText;
+    } 
+
+    
+
+    if (winningCond == 1) {
+        alert("Red Wins! Click to reset");
+        winningCond = 0;
+        document.location.reload(false);
+    }
+    if (winningCond == 2) {
+        alert("Yellow Wins! Click to reset");
+        winningCond = 0;
+        document.location.reload(false);
+    }
+
+    checkWin();
+
+});
+
+socket.on('turnNum', function(turn) {
+    playNum = turn;
+});
+
+
+
 let currentPlayerText = 'Red\'s Turn';
 let currentPlayer = 1;
 let winningCond = 0;
@@ -142,12 +189,31 @@ function checkWin() {
         }
 
     }
+
+    if (winningCond == 1) {
+        alert("Red Wins! Click to reset");
+        winningCond = 0;
+        document.location.reload(false);
+    }
+    else if (winningCond == 2) {
+        alert("Yellow Wins! Click to reset");
+        winningCond = 0;
+        document.location.reload(false);
+    }
+
 }
+
 
 for (let i = 0; i < squares.length; i++) {
     squares[i].onclick = () => {
 
         
+        if (playNum != currentPlayer) {
+            alert("Not Your Turn");
+            return;
+        }
+        
+
         //if the lower square is taken, you can place a chip
         if (squares[i + 7].classList.contains('taken') && !squares[i].classList.contains('taken')) {
             if (currentPlayer == 1) {
@@ -163,18 +229,23 @@ for (let i = 0; i < squares.length; i++) {
                 currentPlayer = 1;
                 current.innerHTML = currentPlayerText;
             } 
+
+
+            console.log("click listener:" + playNum);
+            socket.emit('movement', {i:i, currentPlayer:currentPlayer, currentPlayerText:currentPlayerText, playNum:playNum});
+
+
+            
+
         } else alert('Can\'t place chip here');
 
-        if (winningCond == 1) {
-            alert("Red Wins! Click to reset");
-            document.location.reload(false);
-        }
-        if (winningCond == 2) {
-            alert("Yellow Wins! Click to reset");
-            document.location.reload(false);
-        }
+        
 
         checkWin();
+
+        
     }
 
 }
+
+socket.emit('whatPlayer');
